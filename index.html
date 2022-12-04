@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning System</title>
+    <link rel="icon" type="image/icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+ </head>
+  
+  <body>
+    <div class="grid-container">
+      <div class="item1">
+        <header>
+          <a href="index.html">Learning System</a>
+          <div class="bx bx-menu" id="menu-icon"></div>
+          <ul class="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="tutors.html">Tutors</a></li>
+            <li><a href="test.html">Test Yourself</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </header><hr>
+      </div>
+      <div class="item2">
+        <section>
+          <ul>
+            <li><h1 class="heading" >Python</h1></li>
+            <li><a class="menu " onclick="currentSlide(1)">Introduction</a></li>
+            <li><a class="menu " onclick="currentSlide(2)" >Variables and printing</a></li>
+            <li><a class="menu "  onclick="currentSlide(3)" >Numbers in Python</a></li>
+            <li><a class="menu "  onclick="currentSlide(4)" >Python string</a></li>
+            <li><a class="menu "  onclick="currentSlide(5)" >Booleans and comparisons</a></li>
+            <li><h1 class="heading" >Web Design</h1></li>
+            <li><a class="menu " onclick="currentSlide(6)">Html</a></li>
+            <li><a class="menu " onclick="currentSlide(7)" >Css</a></li>
+            <li><a class="menu "  onclick="currentSlide(8)" >Javascript</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="item3">
+        <h1>&nbsp; Python Info</h1>
+        <div class="card">
+          <p>Python is a widely used general-purpose, high level programming language. It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation. It was designed with an emphasis on code readability, and its syntax allows programmers to express their concepts in fewer lines of code.<br>Python is a programming language that lets you work quickly and integrate systems more efficiently.
+          </p>
+        </div><hr>
+      </div>
+      <div class="item4">
+        <!-- Topic 1 -->
+        <div class="mySlides">
+          <h2>&nbsp;Introduction of Python</h2>
+          <center>  <img src="images/python.png"  width="300" 
+     height="100"></center><center>
+       <iframe  src="https://www.youtube.com/embed/vLqTf2b6GZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   </center>
+          <div class="card">
+            <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.<br>
+            <p>It is used for:</p>
+            <ul>
+              <li style="list-style-type: circle;">web development (server-side),</li>
+              <li style="list-style-type: circle;">software development,</li>
+              <li style="list-style-type: circle;">mathematics,</li>
+              <li style="list-style-type: circle;">system scripting.</li>
+            </ul></p>
+          </div>
+        </div>
+        <!-- Topic 1 -->
+        
+        <!-- Topic 2 -->
+        <div class="mySlides">
+          <h2>&nbsp;Variables and printing</h2>
+          <center><iframe src="https://www.youtube.com/embed/i83VkP0LHPI"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </center>
+          <div class="card">
+            <h3>How to use the print() function in Python</h3>
+To print anything in Python, you use the print() function – that is the print keyword followed by a set of opening and closing parentheses,().
+            <br>
+            <br>
+#how to print a string<br>
+print("Hello world")<br>
+<br>
+#how to print an integer<br>
+print(7)<br>
+<br>
+#how to print a variable <br>
+#to just print the variable on its own include only the name of it<br>
+<br>
+fave_language = "Python"<br>
+print(fave_language)<br>
+<br>
+#output<br>
+<br>
+#Hello world<br>
+#7<br>
+#Python<br>
+          </div>
+        </div>
+        <!-- Topic 2 -->
+        
+        <!-- Topic 3 -->
+        <div class="mySlides">
+          <h2>&nbsp;Numbers in Python</h2>
+          <center><iframe src="https://www.youtube.com/embed/lczmDywXHao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </center>
+          <div class="card">
+            <p>Number data types store numeric values. They are immutable data types, which means that changing the value of a number data type results in a newly allocated object.
+              <br>
+              <br>
+Different types of Number data types are :<br>
+            <ul>
+              <li  style="list-style-type: circle;">int</li>
+              <li  style="list-style-type: circle;">float</li>
+              <li style="list-style-type: circle;">complex</li>
+            </ul>
+Let’s see each one of them:
+
+Int type 
+int (Integers) are the whole number, including negative numbers but not fractions. In Python, there is no limit to how long an integer value can be.
+          </p>
+          </div>
+        </div>
+        <!-- Topic 3 -->
+        
+        <!-- Topic 4 -->
+        <div class="mySlides">
+          <h2>&nbsp;Python string</h2>
+          <center><iframe src="https://www.youtube.com/embed/lSItwlnF0eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </center>
+        <div class="card">
+           <p><h2>Strings</h2>
+Strings in python are surrounded by either single quotation marks, or double quotation marks.<br>
+<br>
+'hello' is the same as "hello".
+<br>
+You can display a string literal with the print() function:
+<br>
+Example<br>
+    <br>
+print("Hello")<br>
+    print('Hello')<br>
+    <br>
+Assign String to a Variable<br>
+Assigning a string to a variable is done with the variable name followed by an equal sign and the string:<br>
+    <br>
+Example<br>
+a = "Hello"<br>
+print(a)<br>
+    
+    
+Multiline Strings<br>
+You can assign a multiline string to a variable by using three quotes:<br>
+Example<br>
+You can use three double quotes:<br>
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""<br>
+print(a)
+           </p>
+        </div>
+        </div>
+        <!-- Topic 4 -->
+        
+        <!-- Topic 5 -->
+        <div class="mySlides">
+          <h2>&nbsp;Booleans and comparisons</h2>
+          <center><iframe src="https://www.youtube.com/embed/mrryXQnlYN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </center>
+          <div class="card">
+            <p>Almost all programming languages contain the concept of a boolean. Booleans are named after a mathematician named George Boole, who defined a system for identifying the truths-ness (or truth value) of any given expression. <br>Put simple, any boolean expression can be expressed as either True or False. Either something is or isn’t true.
+<br>
+Before diving further into the details, let’s speak quick about the semantics of how the value of True<br> is written. 
+    <br>For something to be a boolean in Python, it needs to be spelled exactly as True.<br> This means that TRUE and true would not be a boolean value. Similarly, the string 'True' is also<br> not a boolean.
+    <br>
+    <br>
+    # Checking the types of booleans<br>
+a = True<br>
+b = 'True'<br>
+<br>
+print('The type of a is: ', type(a))<br>
+print('The type of b is: ', type(b))<br><br>
+
+
+    </p>
+  </div>
+    </div>
+      <!-- Topic 5 -->
+    
+
+        <!-- Topic 6 -->
+    <div class="mySlides">
+   <h2>&nbsp;Html</h2>
+      
+  <center><iframe src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </center>
+  <div class="card">
+  <p><h2>What is HTML?</h2><br>
+    <ul>
+<li  style="list-style-type: circle;">HTML stands for Hyper Text Markup Language</li>
+<li  style="list-style-type: circle;">HTML is the standard markup language for creating Web pages</li>
+<li  style="list-style-type: circle;">HTML describes the structure of a Web page</li>
+<li  style="list-style-type: circle;">HTML consists of a series of elements</li>
+<li  style="list-style-type: circle;">HTML elements tell the browser how to display the content</li>
+<li  style="list-style-type: circle;">HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+   </ul> </p>
+  </div>
+    </div>
+      <!-- Topic 6 -->
+
+ <!-- Topic 7 -->
+    <div class="mySlides">
+   <h2>&nbsp;Css</h2>
+  <center><iframe src="https://www.youtube.com/embed/sqJ6xZ9mUwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </center>
+  <div class="card">
+  <p>
+    <h2>CSS is the language we use to style a Web page.
+<br><br>
+What is CSS?</h2>
+    <ul>
+<li  style="list-style-type: circle;">CSS stands for Cascading Style Sheets</li>
+<li  style="list-style-type: circle;">CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+<li  style="list-style-type: circle;">CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+<li  style="list-style-type: circle;">External stylesheets are stored in CSS files</li>
+   </ul> </p>
+  </div>
+    </div>
+      <!-- Topic 7 -->
+
+ <!-- Topic 8 -->
+    <div class="mySlides">
+   <h2>&nbsp;Javascript</h2>
+  <center><iframe src="https://www.youtube.com/embed/B7wHpNUUT4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </center>
+  <div class="card">
+  <p>JavaScript Can Change HTML Content<br>
+One of many JavaScript HTML methods is getElementById().<br><br>
+
+The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript":<br><br>
+
+Example<br>
+document.getElementById("demo").innerHTML = "Hello JavaScript";<br>
+    </p>
+  </div>
+    </div>
+      <!-- Topic 8 -->
+  <a class="button" onclick="plusSlides(-1)" >Previous Page</a> 
+  <a class="button right" onclick="plusSlides(1)">Next Page</a>
+  <hr>
+  <footer>
+    <a class="left-btn" href="#">Faq</a> 
+    Copyrights
+  </footer>
+      </div>
+  <div class="item5">
+    <form>
+      <a class="feed">Give Feedback</a>
+      <br><br>
+      <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+      <input name="email" type="text" class="feedback-input" placeholder="Email" />
+      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <input type="submit" value="SUBMIT"/>
+    </form>
+    <script src="js/script.js"></script>
+  </div>
+    
+      
+  </body>
+  </html>
+
+
